@@ -2,17 +2,19 @@ import styled from '@emotion/styled';
 
 export const Table = styled.table`
   width: calc(100% / 3);
-  width: 800px;
+  width: 900px;
   margin-left: auto;
   margin-right: auto;
   border-spacing: 0;
   border-collapse: collapse;
   border-radius: 5px;
-  background-color: #f5f5dc;
+  background-color:  #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 1), -23px 0 20px -23px rgba(0, 0, 0, 0.8),
+    23px 0 20px -23px rgba(0, 0, 0, 0.8), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 `;
 
 export const TableHead = styled.thead`
-  background-color: #ccc;
+ background-color: rgb(5, 230, 230);
   th {
     width: calc(100% / 3);
   }

@@ -1,13 +1,13 @@
 import styled from '@emotion/styled';
 
 export const ProfileBox = styled.div`
-  width: 300px;
+  width: 400px;
   margin: 0 auto;
-  background-color: #f0f8ff;
+  background-color: #fff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
-  margin-bottom: 50px;
+  border-radius: 6px;
+  margin-bottom: 44px;
 `;
 
 export const Description = styled.div`
@@ -17,25 +17,25 @@ export const Description = styled.div`
 `;
 
 export const Avatar = styled.img`
-  width: 150px;
-  heigh: 150px;
-  margin: 30px auto;
-  border-radius: 4px;
+  width: 200px;
+  heigh: 200px;
+  margin: 50px auto;
+  border-radius: 6px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   background-color: #f5f5dc;
 `;
 export const Name = styled.p`
-  margin-bottom: 20px;
-  font-size: 25px;
-  font-weight: 700;
+  margin-bottom: 25px;
+  font-size: 20px;
+  font-weight: 800;
   color: #022520;
 `;
 
 export const Tag = styled.p`
-  margin-bottom: 20px;
-  font-size: 18px;
-  font-weight: 500;
+  margin-bottom: 30px;
+  font-size: 33px;
+  font-weight: 600;
   color: #02252090;
 `;
 
@@ -52,7 +52,7 @@ export const Item = styled.li`
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 20px 0;
+  padding: 30px 0;
   border: 1px solid #05413780;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -60,13 +60,13 @@ export const Item = styled.li`
 `;
 
 export const Label = styled.span`
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 25px;
+  font-weight: 600;
   color: #000;
 `;
 
 export const Quantity = styled.span`
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 22px;
+  font-weight: 800;
   color: #000;
 `;

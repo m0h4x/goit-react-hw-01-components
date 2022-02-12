@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 export const Container = styled.section`
-  width: 300px;
+  width: 400px;
   margin: 0;
   margin-left: auto;
   margin-right: auto;
@@ -15,6 +15,7 @@ export const Container = styled.section`
 `;
 
 export const Title = styled.h2`
+text-transform: uppercase;
   padding: 20px 0;
   font-size: 25px;
   font-weight: 600;

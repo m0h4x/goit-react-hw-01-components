@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
 
 export const List = styled.ul`
-  margin-bottom: 50px;
+  margin-bottom: 150px;
 `;
